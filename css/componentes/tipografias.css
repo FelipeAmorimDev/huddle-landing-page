@@ -1,0 +1,61 @@
+.font-1-xxl{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.7rem;
+  line-height: 1.4;
+  font-weight: 600;
+  max-width: 20ch;
+}
+
+.font-2-s{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 50ch;
+}
+
+.font-1-l{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@media (max-width:1200px){
+  .font-1-xxl{
+  font-size: 2rem;
+  max-width: 20ch;
+  }
+  .font-2-s{
+    
+    line-height: 1.2;
+    font-size: 1rem;
+    
+  }
+}
+
+@media (max-width:800px){
+  .font-1-xxl{
+  font-size: 2.6rem;
+  max-width: 20ch;
+  }
+  .font-2-s{
+    
+    line-height: 1.2;
+    font-size: 1.3rem;
+    
+  }
+}
+
+@media (max-width:600px){
+  .font-1-xxl{
+  font-size: 1.8rem;
+  max-width: 20ch;
+  }
+  .font-2-s{
+    
+    line-height: 1.2;
+    font-size: 1.1rem;
+    
+  }
+}
